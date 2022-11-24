@@ -8,7 +8,7 @@ html{
 }
 
 body{
-    background-color: rgb(114, 178, 233);
+    background-color: rgb(252, 216, 219);
 }
 
 a{
@@ -20,7 +20,7 @@ h1,h2,h3,h4,h5,h6{
     margin-top: 5rem;
     margin-left: 5rem;
     margin-right: 5rem;
-    color: #000058;
+    color: #920707;
     font-size: 210%;
     margin-bottom: 4rem;
 }
@@ -31,11 +31,19 @@ p{
     margin-bottom: 3rem;
     margin-left: 4rem;
     margin-right: 4rem;
-    background-color: rgb(4, 110, 202);
+    background-color: rgb(252, 216, 219);
 }
 
-div{
-    background-color: rgb(4, 110, 202);
+li{
+    font-size: 180%;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    margin-left: 4rem;
+    margin-right: 4rem;
+    background-color: rgb(252, 216, 219);
+}
+.special{
+    background-color: rgb(252, 216, 219);
     margin: 3rem;
     padding: 3rem;
     font-size: 10px;
@@ -45,7 +53,7 @@ div{
 .form{
     text-align: center;
     font-size: 200%;
-    background-color: rgb(189, 211, 230);
+    background-color:  rgb(250, 245, 246);
     margin: 3rem;
     padding: 3rem;
 }
@@ -59,11 +67,11 @@ ul li{
 }
 header{
     padding: 1.5rem;
-    background-color: rgb(4, 110, 202);
+    background-color: rgb(243, 41, 41);
 }
 footer nav{
     padding: 1.5rem;
-    background-color: rgb(4, 110, 202);
+    background-color: rgb(243, 41, 41);
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
@@ -77,4 +85,16 @@ img{
     margin-left: 15rem;
     margin-right: 15rem;
     border-radius: 20rem;
+}
+
+.moving{
+    overflow: hidden;
+}   
+
+.moving img{
+    transition: all 1.5s;
+}
+
+.moving:hover img{
+    transform: scale(1.5);
 }
